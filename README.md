@@ -9,3 +9,6 @@ An anti-lock braking system (ABS) is a safety anti-skid braking system used on a
 
 [![stars](https://img.shields.io/github/stars/NguyenTuChung01/AntilockBrakingSystemInCarsim?style=social)](https://github.com/NguyenTuChung01/AntilockBrakingSystemInCarsim/stargazers)
 [![forks](https://img.shields.io/github/forks/NguyenTuChung01/AntilockBrakingSystemInCarsim?style=social)](https://github.com/NguyenTuChung01/AntilockBrakingSystemInCarsim/fork)
+[![Follow](https://img.shields.io/github/followers/NguyenTuChung01?style=social)](https://github.com/NguyenTuChung01)
+
+![image](https://user-images.githubusercontent.com/95293469/144444155-347380ff-6644-4f38-8ae0-12b4b7f025ad.png)
