@@ -1,0 +1,39 @@
+[System]
+Name='ABS_FUZZY-LOGIC-0.15'
+Type='sugeno'
+Version=2.0
+NumInputs=1
+NumOutputs=1
+NumRules=5
+AndMethod='prod'
+OrMethod='probor'
+ImpMethod='prod'
+AggMethod='sum'
+DefuzzMethod='wtaver'
+
+[Input1]
+Name='e'
+Range=[-0.85 0.15]
+NumMFs=5
+MF1='NB':'trapmf',[-100 -100 -0.15 -0.07]
+MF2='NS':'trimf',[-0.15 -0.07 0]
+MF3='Z':'trimf',[-0.07 0 0.07]
+MF4='PS':'trimf',[0 0.07 0.15]
+MF5='PB':'trapmf',[0.07 0.15 100 100]
+
+[Output1]
+Name='Kp'
+Range=[0 1]
+NumMFs=5
+MF1='VL':'constant',[0]
+MF2='L':'constant',[0.25]
+MF3='M':'constant',[0.5]
+MF4='H':'constant',[0.75]
+MF5='VH':'constant',[1]
+
+[Rules]
+1, 1 (1) : 1
+2, 2 (1) : 1
+3, 3 (1) : 1
+4, 4 (1) : 1
+5, 5 (1) : 1
