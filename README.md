@@ -11,4 +11,15 @@ An anti-lock braking system (ABS) is a safety anti-skid braking system used on a
 [![forks](https://img.shields.io/github/forks/NguyenTuChung01/AntilockBrakingSystemInCarsim?style=social)](https://github.com/NguyenTuChung01/AntilockBrakingSystemInCarsim/fork)
 [![Follow](https://img.shields.io/github/followers/NguyenTuChung01?style=social)](https://github.com/NguyenTuChung01)
 
-![image](https://user-images.githubusercontent.com/95293469/144444155-347380ff-6644-4f38-8ae0-12b4b7f025ad.png)
+# Table of contents
+1. [Introduction](#introduction)
+2. [Key Features of MOBATSim](#keyfeatures)
+3. [Requirements](#requirements)
+4. [Citation](#citation)
+5. [Contributing to MOBATSim](#contribution)
+6. [Release Notes](#releasenotes)
+7. [Getting Started](#gettingstarted)
+
+<a name="introduction"></a>
+## Introduction
+Hệ thống phanh chống bó cứng (ABS: Antilock Braking System) là một trong những bộ phận chính và đóng vai trò quan trọng trong việc điều khiển ô tô trên đường. Là một thiết bị phụ trợ điện tử giúp xe không bị trượt trong các điều kiện lái xe bất thường. Hệ thống này sẽ chống hiện tượng bị hãm cứng của bánh xe bằng cách điều khiển và thay đổi áp suất dầu tác dụng lên các cơ cấu phanh. Project này sẽ xây dựng On-Off Controller, Fuzzy PID Controller và đánh giá hiệu quả phanh của chúng.
