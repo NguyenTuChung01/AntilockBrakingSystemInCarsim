@@ -11,7 +11,7 @@ An anti-lock braking system (ABS) is a safety anti-skid braking system used on a
 [![forks](https://img.shields.io/github/forks/NguyenTuChung01/AntilockBrakingSystemInCarsim?style=social)](https://github.com/NguyenTuChung01/AntilockBrakingSystemInCarsim/fork)
 [![Follow](https://img.shields.io/github/followers/NguyenTuChung01?style=social)](https://github.com/NguyenTuChung01)
 
-# Table of contents![68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6875756b30585067374150444f2f67697068792e676966](https://user-images.githubusercontent.com/95293469/144708422-aea55e87-23db-4e11-93ff-04353a936c86.gif)
+# Table of contents!
 
 1. [Introduction](#introduction)
 2. [Key Features of MOBATSim](#keyfeatures)
@@ -25,8 +25,10 @@ An anti-lock braking system (ABS) is a safety anti-skid braking system used on a
 ## Introduction
 Antilock braking system (ABS: Antilock Braking System) is one of the main parts and plays an important role in controlling cars on the road. Is an electronic auxiliary device that prevents the vehicle from skidding under abnormal driving conditions. This system will prevent wheel locking by controlling and varying the oil pressure acting on the brake mechanisms. This project will build On-Off Controller, Fuzzy PID Controller and evaluate their braking efficiency.
 
-![alt](https://media.giphy.com/media/huuk0XPg7APDO/giphy.gif)
-![A cute kitten](http://placekitten.com/200/300?style=centerme)
+Below is the relationship between wheel slip and Adhesion coefficient.
+![image](https://user-images.githubusercontent.com/95293469/144709635-7b9a0a8d-cad2-4ddd-b1eb-6449f85887a3.png)
+So the goal of the On-Off Controller and the Fuzzy PID Controller is to keep the wheel slip from 0.1 to 0.3.
+
 
                                      
 
@@ -35,7 +37,6 @@ Antilock braking system (ABS: Antilock Braking System) is one of the main parts 
 | Center align column 2 |   căn giữa     |               |              |
 | Right align column 3  |                | căn phải      |              |
 | Left align numbers:   |                |               |   căn trái   |
-
 
 
 
