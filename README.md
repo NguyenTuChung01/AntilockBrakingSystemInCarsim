@@ -1,6 +1,6 @@
 # **Antilock Braking System in Carsim**
 
-An anti-lock braking system (ABS) is a safety anti-skid braking system used on aircraft and on land vehicles, such as cars, motorcycles, trucks, and buses. ABS prevents longitudinal slippage from exceeding allowable limits. In this project, I built a controller for the ABS system and simulated it on Carsim.
+An anti-lock braking system (ABS) is a safety anti-skid braking system used on aircraft and on land vehicles, such as cars, motorcycles, trucks, and buses. ABS prevents wheel slip from exceeding allowable limits. In this project, I built a controller for the ABS system and simulated it on Carsim.
 
 [![Carsim](https://img.shields.io/static/v1?label=Carsim&message=v2017.1&color=96D1AA&logo=github)](https://www.carsim.com/)
 [![Contributors](https://img.shields.io/github/contributors/NguyenTuChung01/AntilockBrakingSystemInCarsim)](https://github.com/NguyenTuChung01/AntilockBrakingSystemInCarsim/graphs/contributors)
@@ -14,7 +14,7 @@ An anti-lock braking system (ABS) is a safety anti-skid braking system used on a
 # Table of contents!
 
 1. [Introduction](#introduction)
-2. [Key Features of MOBATSim](#keyfeatures)
+2. [Build control system](#BuildControlSystem)
 3. [Requirements](#requirements)
 4. [Citation](#citation)
 5. [Contributing to MOBATSim](#contribution)
@@ -29,8 +29,11 @@ Below is the relationship between wheel slip and Adhesion coefficient.
 ![image](https://user-images.githubusercontent.com/95293469/144709635-7b9a0a8d-cad2-4ddd-b1eb-6449f85887a3.png)
 So the goal of the On-Off Controller and the Fuzzy PID Controller is to keep the wheel slip from 0.1 to 0.3.
 
+<a name="#BuildControlSystem"></a>
+## Build control system
+Build ABS system based on closed loop control system, with desired output is wheel slip with wheel slip equal to 0.15
+![image](https://user-images.githubusercontent.com/95293469/144710100-17934251-570b-46ae-aa75-5ae5bd0df354.png)
 
-                                     
 
 | Alignment             | Column 2       | Column 3      |   Column 4   |
 | --------------------- |:--------------:| -------------:|:-------------|
