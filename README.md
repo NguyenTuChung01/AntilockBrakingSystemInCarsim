@@ -23,7 +23,7 @@ An anti-lock braking system (ABS) is a safety anti-skid braking system used on a
 
 <a name="introduction"></a>
 ## Introduction
-Antilock braking system (ABS: Antilock Braking System) is one of the main parts and plays an important role in controlling cars on the road. Is an electronic auxiliary device that prevents the vehicle from skidding under abnormal driving conditions. This system will prevent wheel locking by controlling and varying the oil pressure acting on the brake mechanisms. This project will build On-Off Controller, Fuzzy PID Controller and evaluate their braking efficiency.
+Antilock braking system is one of the main parts and plays an important role in controlling cars on the road. Is an electronic auxiliary device that prevents the vehicle from skidding under abnormal driving conditions. This system will prevent wheel locking by controlling and varying the oil pressure acting on the brake mechanisms. This project will build On-Off Controller, Fuzzy PID Controller and evaluate their braking efficiency.
 
 Below is the relationship between wheel slip and Adhesion coefficient.
 ![image](https://user-images.githubusercontent.com/95293469/144709635-7b9a0a8d-cad2-4ddd-b1eb-6449f85887a3.png)
