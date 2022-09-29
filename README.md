@@ -57,11 +57,3 @@ Controller of rear wheel
 ![image](https://user-images.githubusercontent.com/95293469/144746360-99e2433e-a500-41b8-a9d2-f14e9e9eec6c.png)
 
 
-
-| Alignment             | Column 2       | Column 3      |   Column 4   |
-| --------------------- |:--------------:| -------------:|:-------------|
-| Center align column 2 |   căn giữa     |               |              |
-| Right align column 3  |                | căn phải      |              |
-| Left align numbers:   |                |               |   căn trái   |
-
-
